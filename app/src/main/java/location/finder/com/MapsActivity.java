@@ -125,7 +125,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         //mode for find direction
         String mode = "mode=driving";
         //build the full param
-        String param = str_org +"&"+str_dest+"&"+sensor+"&"+mode;
+        String key = "key=AIzaSyCjWQmfw34X8NZGRTnC-1TdVYLHm9raQig";
+        String param = str_org +"&"+str_dest+"&"+sensor+"&"+mode+"&"+key;
         //output format
         String output = "json";
         //create url to request
